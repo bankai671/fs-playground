@@ -1,5 +1,11 @@
 import fs from 'fs';
 
+/**
+ * 
+ * @param {string} arr array of string data (names for example)
+ * @description create a /results folder and .txt file with data
+ */
+
 export function writeResults(arr) {
   fs.mkdirSync('results', { recursive: true });
   let fileName = arr.length + (arr.length === 1 ? '-name' : '-names');
