@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Generate files with random names",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-profile-generator": "^2.3.0"
+  }
+}
